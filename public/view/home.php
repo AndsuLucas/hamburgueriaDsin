@@ -1,5 +1,7 @@
-
-
+<?php use Classes\Message\Message;?>
+<div id="message">
+    <?= Message::getMessage() ?>
+</div>
 <img src="./public/imagens/promo.png" class="img-fluid" alt="Imagem responsiva">
 <div class="container">
     <div class="row">

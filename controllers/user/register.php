@@ -1,8 +1,18 @@
 <?php
 use Classes\Model\Client;
 use Classes\Message\Message;
+//limpando possíveis dados sujos
+$user_data = sanitize([
+    "nome_completo" => "s",
+    "email"         => "e",
+    "telefone"      => "i",
+    "celular"       => "i",
+    "cpf"           => "i",
+    "rua"           => "s",
+    "numero"        => "i",
+    "complemento"   => "s"
+]);
 
-$user_data = $_POST;
 $client    = new Client();
 
 //caso algum campo esteja vazio

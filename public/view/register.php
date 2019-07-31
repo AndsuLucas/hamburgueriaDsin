@@ -57,3 +57,24 @@
         <input type="submit" class="btn btn-primary" value="Cadastrar!">
     </form>
 </fieldset>
+<script>
+    $(document).ready(function(){
+        const nome         = $("#nome_completo");
+        const rua          = $("#rua");
+        const complemento  = $("#complemento");
+        const telefone     = $("#telefone");
+        const celular      = $("#celular");
+        const cpf          = $("#cpf");
+        const numero       = $("#numero"); 
+        
+        $(nome).keyup(removerNumeros);
+        $(rua).keyup(removerNumeros);
+        $(complemento).keyup(removerNumeros);
+
+        $(telefone).keyup(removerLetras);
+        $(celular).keyup(removerLetras);
+        $(cpf).keyup(removerLetras);
+        $(numero).keyup(removerLetras);
+
+     })
+</script>

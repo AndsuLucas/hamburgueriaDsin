@@ -12,21 +12,25 @@ define("DATABASE", [
 
 
 //DEFINIÇÃO DE ROTAS PARA AS PAGINAS (USUÁRIOS COMUNS)
-   
+
+//?page=nome
 define("PATHS",[
     //NOME DA ROTA => //CAMINHO DO ARQUÍVO
     "home"             => "./public/view/home.php",
     "login_cliente"    => "./public/view/login.php",
     "cadastro_cliente" => "./public/view/register.php",
-    "dados_cliente"    => "./public/view/profile.php"    
+    "dados_cliente"    => "./public/view/profile.php",
+    "meus_pedidos"     => "./public/view/list_user_order.php",
+    "fazer_pedido"     => "./public/view/order_register.php"    
     
 ]);
 
 //DEFINIÇÃO DAS ROTAS PARA CONTROLLERS
-
+//?control_page=nome
 define("CONTROL_PATHS",[
     "user_login"    => "./user/login.php",
     "user_logout"   => "./user/logout.php",
     "user_register" => "./user/register.php",
-    "user_update"   => "./user/update.php"
+    "user_update"   => "./user/update.php",
+    "product_api"   => "./user/product_api.php"
 ]);

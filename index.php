@@ -17,6 +17,9 @@ start_session();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://unpkg.com/feather-icons"></script>
+    <script type="text/javascript" src="./public/js/jquery.js"></script>
+    <script type="text/javascript" src="./public/js/sanitize.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -71,15 +74,18 @@ start_session();
         </div>
     </nav>
    
-    <div class="container">
+    <main class="container">
         <?php 
             //renderização do conteúdo principal da página
           
             require render($_GET["page"], PATHS);
         
         ?>
-    </div>
+    </main>
 </body>
-    <script type="text/javascript" src="./public/js/jquery.js"></script>
+    
     <script type="text/javascript" src="./public/js/bootstrap.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
 </html>

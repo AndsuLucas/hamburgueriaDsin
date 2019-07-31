@@ -1,4 +1,4 @@
-function tirarNumeros(event){
+function removerNumeros(){
 	var text = $(this).val().toString().replace(/[^A-Za-z]/g, " ");
 	$(this).val(text.trim())
 }

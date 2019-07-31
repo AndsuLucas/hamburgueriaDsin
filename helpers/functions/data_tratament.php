@@ -35,7 +35,7 @@ function sanitize(array $types) {
 					$_POST[$key] = addslashes(filter_input(INPUT_POST, $key, FILTER_SANITIZE_EMAIL));
 				break;		
 			default:
-					$_POST[$key] = $_POST[$key];
+					$_POST[$key] = addslashes($_POST[$key]);
 					break;
  		}
 

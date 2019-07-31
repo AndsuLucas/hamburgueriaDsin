@@ -3,8 +3,12 @@ use Classes\Model\Client;
 use Classes\Message\Message;
 
 $client = new Client();
-
-$user_data = $client->login($_POST["email"], $_POST["senha"]);
+//cada valor de cada chave equivale ao tipo de limpeza que ela sofrerá 
+//email => e = sanitize_email (!os dados vem de POST)
+$login_data = sanitize([
+    "email" => "e",
+]);
+$user_data = $client->login($login_data["email"], addHash($login_data["senha"]));
 
 if (($user_data)) {
 
