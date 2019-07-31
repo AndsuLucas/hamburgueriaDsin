@@ -43,7 +43,7 @@ $(document).ready(function(){
     function getType(){
         $.ajax({
             method: "get",
-            url: "http://localhost:8000/controllers/?control_page=product_api",
+            url: "https://hamburgueriadsin.herokuapp.com/?control_page=product_api",
             data: {getTypes:true},
             dataType: "json"
         }).done(function(result){
