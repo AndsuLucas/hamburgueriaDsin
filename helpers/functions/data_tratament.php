@@ -20,7 +20,7 @@ function isEmpty(array $data){
 
 }
 //limpa com base no valor passado do array
-/*exemplo $_POST["NOME"] sanitize(["nome" => "s"(string)])
+/*exemplo $_POST["NOME"] sanitize(["nome" => "s"(string)])*/
 function sanitize(array $types) {
 	
 	foreach ($types as $key => $value) {
