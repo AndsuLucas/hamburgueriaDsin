@@ -10,4 +10,5 @@ return array(
     '5adeb9fee5e20936049d5ff709361eea' => $baseDir . '/config.php',
     '572536b8cba645c4012cefd9af40a2d0' => $baseDir . '/helpers/functions/renderpage.php',
     '61d7f2a2c5da1f698980cba9c5842734' => $baseDir . '/helpers/functions/session.php',
+    '91faffc7bb70a9165b8f49b0b2eed3bf' => $baseDir . '/helpers/functions/data_tratament.php',
 );

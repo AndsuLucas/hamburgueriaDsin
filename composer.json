@@ -12,7 +12,8 @@
                 "./helpers/functions/diedump.php",
                 "config.php",
                 "./helpers/functions/renderpage.php",
-                "./helpers/functions/session.php"
+                "./helpers/functions/session.php",
+                "./helpers/functions/data_tratament.php"
             ] 
 
     }

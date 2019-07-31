@@ -3,11 +3,11 @@
 
 //DEFINIÇÃO DO BANCO
 define("DATABASE", [
-    "host"     => "",
-    "port"     => "",
-    "dbname"   => "",
-    "user"     => "",
-    "password" => ""
+    "host"     => "ec2-23-21-160-38.compute-1.amazonaws.com",
+    "port"     => "5432",
+    "dbname"   => "dfvtbbf7gg6ir2",
+    "user"     => "ptlaqpzriberga",
+    "password" => "e7272cf5dd417570d297a30110b26964b631b9d8194e2d5b69953d8c693c5dd9"
 ]);
 
 

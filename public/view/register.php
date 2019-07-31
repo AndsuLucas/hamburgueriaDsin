@@ -13,7 +13,7 @@
             </div>
             <div class="form-group col-md-6">
                 <label for="">Email</label>
-                <input type="text" class="form-control" id="email" name="email">
+                <input type="email" class="form-control" id="email" name="email">
             </div>
         </div>
         <div class="form-row">
@@ -49,10 +49,10 @@
                 <label for="">Senha</label>
                 <input type="password" class="form-control" id="senha" name="senha">
             </div>
-            <!--<div class="form-group col-md-6">
+            <div class="form-group col-md-6">
                 <label for="">Repetir Senha</label>
                 <input type="password" class="form-control" id="repetir_senha" name="repetir_senha">
-            </div>-->
+            </div>
         </div>
         <input type="submit" class="btn btn-primary" value="Cadastrar!">
     </form>
