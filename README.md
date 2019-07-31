@@ -20,4 +20,4 @@ Confesso que; não consegui atender o meu padrão de qualidade, todavia fiz o m�
 3 - Conclusões:
 
 Ressalto novamente que dei meu máximo com os recursos de tempo que tive. Agradeço de coração à empresa Dsin, colaboradores e time de desenvolvimento por ter me dado esta oportunidade.
-Foi muito divertido participar deste projeto, vou continuar ele e usarr como portifólio futuramente.
+Foi muito divertido participar deste projeto, vou dar continuidade ao mesmo eu usar como portifólio futuramente.
