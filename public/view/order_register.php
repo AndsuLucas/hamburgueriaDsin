@@ -27,7 +27,7 @@ $(document).ready(function(){
     const panelPedidos = $("#panel-pedidos");
     
     
-    
+    /* colocando os tipos na tela */    
     function setTypes(object){
         $(object).each(function(indice, elemento){
             
@@ -39,7 +39,7 @@ $(document).ready(function(){
 
         })
     }
-
+    /* buscando os tipos de produto no banco */
     function getType(){
         $.ajax({
             method: "get",
