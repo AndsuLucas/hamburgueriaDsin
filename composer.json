@@ -1,0 +1,19 @@
+{
+    "name": "andersonlucas/hamburgueria",
+    "description": "Sistema de hamburgueria para processo seletivo na DSIN",
+    "require": {},
+    "autoload":{
+           "psr-4":{
+               "Classes\\Model\\": "./model",
+               "Classes\\Message\\": "./helpers/classes",
+               "Classes\\Controller\\": "./controllers/classes"
+            },
+            "files":[
+                "./helpers/functions/diedump.php",
+                "config.php",
+                "./helpers/functions/renderpage.php",
+                "./helpers/functions/session.php"
+            ] 
+
+    }
+}
