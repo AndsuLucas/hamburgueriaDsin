@@ -16,6 +16,7 @@ Confesso que; não consegui atender o meu padrão de qualidade, todavia fiz o m�
 - Bootstrap v4 -> Não foquei quase nada no layout por falta de prazo, então decidi usar o framwork bootstrap para deixar o meu layout menos crú. Meu foco neste caso era a produtividade.
 - Jquery 3.3.1 -> Basicamente utilizei o jquery pelo mesmo fato de ter utilizado o bootstrap, isto é, pela produtividade.
 - Git (github/heroku cli) -> Mais flexibilidade para trabalhar em time e fazer seus deploys. Versionar código é uma mão na roda quando o assunto é programação, logo não poderia deixar de lado tal ferramenta.
+- Composer v.stable 1.8.6 -> Gerenciamento de dependências para o php. Tira um bom peso das costas do programador e facilida na manutenção do condigo fonte. Além disso é muito bom para evitar includes demais :)
 
 3 - Conclusões:
 
